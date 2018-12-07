@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this,"JSON Null", Toast.LENGTH_LONG).show();
 
         }
-        
+
         String string = json.getString("name");
         return string;
     }
